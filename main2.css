@@ -1,0 +1,100 @@
+:root {
+  --main-bg-color: #F7F6F2;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  /* padding: 0; */
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-bg-color);
+  font-family: 'Lora',serif;
+}
+/* 
+body * + * {
+  margin-top: 1.5em;
+} */
+.container {
+  
+}
+
+.header {
+  display: flex;
+  text-transform: uppercase;
+  /* text-align: center; */
+  letter-spacing: 0.2em;
+  /* display: inline-grid; */
+  /* justify-ite/ms: center; */
+  align-items: center;
+  color: var(--main-bg-color);
+  height: 300px;
+  background: pink;
+  background: url('back-image.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header > div {
+  margin-left: 4em;
+}
+h1 {
+  /* font-family: 'Ruslan Display'; */
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+}
+h2 {
+  font-family: 'Ruslan Display';
+  padding: 1em;
+}
+h3 {
+  font-size: 1em;
+}
+.header > div > p {
+  font-weight: 100;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  /* background: url('back-main.jpg') no-repeat center center fixed; */
+  /* background-size: cover; */
+
+}
+
+
+section  {
+  border: 3px double black;
+  background: white;
+  margin: 1em 5em;
+  
+}
+
+section:first-child {
+  margin-top: 1em;
+}
+
+article {
+  /* background-color: grey; */
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+article strong {
+  margin-left: 1em;
+}
+
+footer {
+  background-color: #ccc;
+  text-align: center;
+}
+
