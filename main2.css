@@ -36,7 +36,7 @@ body * + * {
   color: var(--main-bg-color);
   height: 300px;
   background: pink;
-  background: url('back-image.jpeg') no-repeat center center fixed;
+  background: url('https://runcodd.github.io/dent/back-image.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
